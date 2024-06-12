@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.menu {
+  position: sticky;
+  top: 0;
+  width: 97.3%;
+  height: 60px;
+  background-color: white;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  position: sticky;
+  top: 0;
+  min-height: 35px;
+  background: #fff; */
+}
+.main-menu {
+  display: flex;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 4px;
+}
+.menu-items {
+  list-style: none;
+}
+.menu-items a {
+  margin-left: 20px;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.logo {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 4px;
+  color: black;
+}
+.hero-image {
+  height: 700px;
+  background-image: url(https://www.w3schools.com/w3images/hamburger.jpg);
+}
+.hero-text {
+  margin-top: 60px;
+}
+.about-catering {
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.heading-about-catering {
+  text-align: center;
+  font-size: 45px;
+  margin-right: 50px;
+}
+.heading-2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: "Courier New", Courier, monospace;
+  margin-right: 50px;
+}
+.description-about-catering {
+  margin: 50px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+.image-1 img {
+  margin: 50px;
+  height: 600px;
+}
+.our-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.horizental-line {
+  margin-left: 150px;
+  width: 80%;
+}
+.text-our-menu {
+  line-height: 40px;
+}
+.heading-our-menu-desc {
+  font-size: 25px;
+}
+.our-menu-desc-items {
+  margin-top: 30px;
+  margin-right: 50px;
+}
+.text-our-menu > h1 {
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+h3 {
+  font-weight: 500;
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 5px;
+}
+.contact {
+  margin: 50px;
+  margin-left: 200px;
+}
+.contact-heading-1 {
+  line-height: 1.5;
+  margin-bottom: 36px;
+  font-weight: 400;
+  margin: 10px 0;
+  font-size: 35px;
+}
+.contact-heading-2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #607d8b !important ;
+}
+body {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+.for-line-spacing {
+  line-height: 50px;
+}
+.contatct-input-fields {
+  height: 50px;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 85%;
+  line-height: 1.5;
+}
+.contact-submit-btn {
+  height: 35px;
+  width: 150px;
+  border: none;
+  margin-top: 25px;
+}
